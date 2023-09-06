@@ -32,7 +32,7 @@ I recommend to install this within a virtualenv.
 ### Prerequisites
 
 *SETUP:*
-Django
+Django and
 Python Imaging Library
 
 (Virtualenv)
