@@ -10,13 +10,13 @@
     <title>Villa Agency - Property Listing by TemplateMo</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/main/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="static/main/css/fontawesome.css">
+    <link rel="stylesheet" href="static/main/css/templatemo-villa-agency.css">
+    <link rel="stylesheet" href="static/main/css/owl.css">
+    <link rel="stylesheet" href="static/main/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -70,16 +70,16 @@ https://templatemo.com/tm-591-villa-agency
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
+                    <a href="{% url 'index' %}" class="logo">
                         <h1>Villa</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="properties.html" class="active">Properties</a></li>
-                      <li><a href="propertyds.html">Property Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="{% url 'index' %}">Home</a></li>
+                      <li><a href="{% url 'properties' %}">Properties</a></li>
+                      <li><a href="{% url 'propertyds' %}">Property Details</a></li>
+                      <li><a href="{% url 'contact' %}">Contact Us</a></li>
                       <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
                   </ul>   
                     <a class='menu-trigger'>
@@ -141,7 +141,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
           <div class="item">
-            <a href="propertyds.html"><img src="assets/images/property-02.jpg" alt=""></a>
+            <a href="propertyds.html"><img src="static/main/img/property-02.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.180.000</h6>
             <h4><a href="propertyds.html">54 New Street Florida, OR 27001</a></h4>
@@ -159,7 +159,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
           <div class="item">
-            <a href="propertyds.html"><img src="assets/images/property-03.jpg" alt=""></a>
+            <a href="propertyds.html"><img src="static/main/img/property-03.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.460.000</h6>
             <h4><a href="propertyds.html">26 Mid Street Portland, OR 38540</a></h4>
@@ -177,7 +177,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
           <div class="item">
-            <a href="propertyds.html"><img src="assets/images/property-04.jpg" alt=""></a>
+            <a href="propertyds.html"><img src="static/main/img/property-04.jpg" alt=""></a>
             <span class="category">Apartment</span>
             <h6>$584.500</h6>
             <h4><a href="propertyds.html">12 Hope Street Portland, OR 12650</a></h4>
@@ -195,7 +195,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
           <div class="item">
-            <a href="propertyds.html"><img src="assets/images/property-05.jpg" alt=""></a>
+            <a href="propertyds.html"><img src="static/main/img/property-05.jpg" alt=""></a>
             <span class="category">Penthouse</span>
             <h6>$925.600</h6>
             <h4><a href="propertyds.html">34 Hope Street Portland, OR 42680</a></h4>
@@ -213,7 +213,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
           <div class="item">
-            <a href="propertyds.html"><img src="assets/images/property-06.jpg" alt=""></a>
+            <a href="propertyds.html"><img src="static/main/img/property-06.jpg" alt=""></a>
             <span class="category">Modern Condo</span>
             <h6>$450.000</h6>
             <h4><a href="propertyds.html">22 Hope Street Portland, OR 16540</a></h4>
@@ -231,7 +231,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
           <div class="item">
-            <a href="propertyds.html"><img src="assets/images/property-03.jpg" alt=""></a>
+            <a href="propertyds.html"><img src="static/main/img/property-03.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$980.000</h6>
             <h4><a href="propertyds.html">14 Mid Street Miami, OR 36450</a></h4>
@@ -249,7 +249,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
           <div class="item">
-            <a href="propertyds.html"><img src="assets/images/property-02.jpg" alt=""></a>
+            <a href="propertyds.html"><img src="static/main/img/property-02.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.520.000</h6>
             <h4><a href="propertyds.html">26 Old Street Miami, OR 12870</a></h4>
@@ -267,7 +267,7 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
           <div class="item">
-            <a href="propertyds.html"><img src="assets/images/property-01.jpg" alt=""></a>
+            <a href="propertyds.html"><img src="static/main/img/property-01.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$3.145.000</h6>
             <h4><a href="propertyds.html">34 New Street Miami, OR 24650</a></h4>
@@ -309,12 +309,12 @@ https://templatemo.com/tm-591-villa-agency
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="static/main/vendor/jquery/jquery.min.js"></script>
+  <script src="static/main/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="static/main/js/isotope.min.js"></script>
+  <script src="static/main/js/owl-carousel.js"></script>
+  <script src="static/main/js/counter.js"></script>
+  <script src="static/main/js/custom.js"></script>
 
   </body>
 </html>

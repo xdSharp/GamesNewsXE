@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def propertysdetails(request):
+def propertyds(request):
     return render(request, 'propertyds.html')
