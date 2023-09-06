@@ -1,31 +1,20 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/xdSharp/GamesNewsXE">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h3 align="center">GamesNewsXE</h3>
 
   <p align="center">
     Django-WebSite parce
     <br/>
     <br/>
-    <a href="https://github.com/xdSharp/GamesNewsXE"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/xdSharp/GamesNewsXE">View Demo</a>
-    .
     <a href="https://github.com/xdSharp/GamesNewsXE/issues">Report Bug</a>
     .
     <a href="https://github.com/xdSharp/GamesNewsXE/issues">Request Feature</a>
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/xdSharp/GamesNewsXE/total) ![Contributors](https://img.shields.io/github/contributors/xdSharp/GamesNewsXE?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/xdSharp/GamesNewsXE?style=social) ![Issues](https://img.shields.io/github/issues/xdSharp/GamesNewsXE) 
+
 
 ## About The Project
-
-![Screen Shot](images/screenshot.png)
 
 This project was created to migrate a regular website to the Django framework for further development and creation of a website Admin panel.
 
@@ -103,8 +92,4 @@ MIT, as the original project.
 * **xdSharp** - *Comp Sci Student* - [xdSharp](https://github.com/xdSharp) - *HI*
 * **EruTou** - *Comp Sci Student* - [EruTou](https://github.com/EruTou) - *hI*
 
-## Acknowledgements
 
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
