@@ -1,0 +1,2 @@
+# GamesNewsXE
+ Django-WebSite parce
