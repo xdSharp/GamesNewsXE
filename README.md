@@ -42,18 +42,18 @@ Python Imaging Library
 
 ### Installation
 
-1. Activate the virtual environment
+1. Activate the virtual environment.
 ```sh
  source venv/bin/activate
 ```
 
-2. Clone the repo
+2. Clone the repo.
 
 ```sh
 git clone https://github.com/xdSharp/GamesNewsXE.git
 ```
 
-3. Run the project
+3. Run the project.
 
 ```sh
 python manage.py runserver
@@ -61,7 +61,7 @@ python manage.py runserver
 
 ## Usage
 
-The project migrated a regular website to the Django framework
+The project migrated a regular website to the Django framework.
 
 ## Roadmap
 
