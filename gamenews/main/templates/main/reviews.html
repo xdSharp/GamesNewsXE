@@ -47,8 +47,8 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-8 col-md-8">
           <ul class="info">
-            <li><i class="fa fa-envelope"></i> support@gn.com</li>
-            <li><i class="fa fa-map"></i> Kazan, October 25, 10a, 420032</li>
+            <li><i class="fa fa-envelope"></i> <a href="mailto:support@gn.com" style="color: #7A7A7A">support@gn.com</a></li>
+            <li><i class="fa fa-map"></i> <a href="https://goo.gl/maps/U7T7nyPiWqkiEFEN6" target="_blank" style="color: #7A7A7A">Kazan, October 25, 10a, 420032</a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-4">
@@ -76,8 +76,8 @@ https://templatemo.com/tm-591-villa-agency
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="{% url 'index' %}" class="active">Новости</a></li>
-                      <li><a href="{% url 'reviews' %}">Обзоры</a></li>
+                      <li><a href="{% url 'index' %}">Новости</a></li>
+                      <li><a href="{% url 'reviews' %}" class="active">Обзоры</a></li>
                       <li><a href="{% url 'guides' %}">Гайды</a></li>
                       <li><a href="{% url 'contacts' %}">Контакты</a></li>
                       <li><a href="#"><i class="fa fa-calendar"></i>Календарь релизов</a></li>
@@ -97,7 +97,7 @@ https://templatemo.com/tm-591-villa-agency
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <span class="breadcrumb"><a href="../">Новости</a> / Обзоры</span>
+          <span class="breadcrumb"><a href="{% url 'index' %}">Новости</a> / Обзоры</span>
           <h3>Обзоры</h3>
         </div>
       </div>
@@ -111,28 +111,28 @@ https://templatemo.com/tm-591-villa-agency
           <a class="is_active" href="#!" data-filter="*">Show All</a>
         </li>
         <li>
-          <a href="#!" data-filter=".adv">Apartment</a>
+          <a href="#!" data-filter=".adv">Action</a>
         </li>
         <li>
-          <a href="#!" data-filter=".str">Villa House</a>
+          <a href="#!" data-filter=".str">RPG</a>
         </li>
         <li>
-          <a href="#!" data-filter=".rac">Penthouse</a>
+          <a href="#!" data-filter=".rac">Adventure</a>
         </li>
       </ul>
       <div class="row properties-box">
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
           <div class="item">
-            <a href="#"><img src="assets/images/property-01.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$2.264.000</h6>
-            <h4><a href="#">18 Old Street Miami, OR 97219</a></h4>
+            <a href="#"><img src="static/main/img/honkai_star_rail.jpg" alt="Honkai: Star Rail"></a>
+            <span class="category">Action-adventure</span>
+            <h6>Бесплатно ₽</h6>
+            <h4><a href="#">Honkai: Star Rail</a></h4>
             <ul>
-              <li>Bedrooms: <span>8</span></li>
-              <li>Bathrooms: <span>8</span></li>
-              <li>Area: <span>545m2</span></li>
-              <li>Floor: <span>3</span></li>
-              <li>Parking: <span>6 spots</span></li>
+              <li>ОС: <span>Windows x64</span></li>
+              <li>ОЗУ: <span>8 ГБ</span></li>
+              <li>Видеокарта: <span>NVIDIA GeForce GTX 650 Ti, 2 GB | AMD Radeon R7 360, 2 GB</span></li>
+              <li>DirectX: <span>12</span></li>
+              <li>ПЗУ: <span>10 ГБ</span></li>
             </ul>
             <div class="main-button">
               <a href="#">Подробнее</a>
@@ -141,10 +141,10 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
           <div class="item">
-            <a href="#"><img src="static/main/img/property-02.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.180.000</h6>
-            <h4><a href="#">54 New Street Florida, OR 27001</a></h4>
+            <a href="#"><img src="static/main/img/baldurs_gate_3.jpeg" alt="Baldur's Gate 3"></a>
+            <span class="category">RPG</span>
+            <h6>1999 ₽</h6>
+            <h4><a href="#">Baldur's Gate 3</a></h4>
             <ul>
               <li>Bedrooms: <span>6</span></li>
               <li>Bathrooms: <span>5</span></li>
@@ -159,10 +159,10 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv rac">
           <div class="item">
-            <a href="#"><img src="static/main/img/property-03.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.460.000</h6>
-            <h4><a href="#">26 Mid Street Portland, OR 38540</a></h4>
+            <a href="#"><img src="static/main/img/starfield.jpeg" alt="Starfield"></a>
+            <span class="category">Action/RPG</span>
+            <h6>4999 ₽</h6>
+            <h4><a href="#">Starfield</a></h4>
             <ul>
               <li>Bedrooms: <span>5</span></li>
               <li>Bathrooms: <span>4</span></li>
@@ -177,10 +177,10 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
           <div class="item">
-            <a href="#"><img src="static/main/img/property-04.jpg" alt=""></a>
-            <span class="category">Apartment</span>
-            <h6>$584.500</h6>
-            <h4><a href="#">12 Hope Street Portland, OR 12650</a></h4>
+            <a href="#"><img src="static/main/img/hogwarts_legacy.jpg" alt="Hogwarts Legacy"></a>
+            <span class="category">Action role-playing</span>
+            <h6>1999 ₽</h6>
+            <h4><a href="#">Hogwarts Legacy</a></h4>
             <ul>
               <li>Bedrooms: <span>4</span></li>
               <li>Bathrooms: <span>3</span></li>
@@ -195,10 +195,10 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
           <div class="item">
-            <a href="#"><img src="static/main/img/property-05.jpg" alt=""></a>
-            <span class="category">Penthouse</span>
-            <h6>$925.600</h6>
-            <h4><a href="#">34 Hope Street Portland, OR 42680</a></h4>
+            <a href="#"><img src="static/main/img/stray.jpg" alt="Stray"></a>
+            <span class="category">Adventure</span>
+            <h6>1199 ₽</h6>
+            <h4><a href="#">Stray</a></h4>
             <ul>
               <li>Bedrooms: <span>4</span></li>
               <li>Bathrooms: <span>4</span></li>
@@ -213,10 +213,10 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
           <div class="item">
-            <a href="#"><img src="static/main/img/property-06.jpg" alt=""></a>
-            <span class="category">Modern Condo</span>
-            <h6>$450.000</h6>
-            <h4><a href="#">22 Hope Street Portland, OR 16540</a></h4>
+            <a href="#"><img src="static/main/img/elden_ring.jpeg" alt="Elden Ring"></a>
+            <span class="category">Action/RPG</span>
+            <h6>3999 ₽</h6>
+            <h4><a href="#">Elden Ring</a></h4>
             <ul>
               <li>Bedrooms: <span>3</span></li>
               <li>Bathrooms: <span>2</span></li>
@@ -231,10 +231,10 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
           <div class="item">
-            <a href="#"><img src="static/main/img/property-03.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$980.000</h6>
-            <h4><a href="#">14 Mid Street Miami, OR 36450</a></h4>
+            <a href="#"><img src="static/main/img/diablo_4.jpg" alt="Diablo 4"></a>
+            <span class="category">Action/RPG</span>
+            <h6>5199 ₽</h6>
+            <h4><a href="#">Diablo IV</a></h4>
             <ul>
               <li>Bedrooms: <span>8</span></li>
               <li>Bathrooms: <span>8</span></li>
@@ -249,10 +249,10 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
           <div class="item">
-            <a href="#"><img src="static/main/img/property-02.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$1.520.000</h6>
-            <h4><a href="#">26 Old Street Miami, OR 12870</a></h4>
+            <a href="#"><img src="static/main/img/swj_survivor.jpg" alt="Star Wars Jedi: Survivor"></a>
+            <span class="category">Action-adventure</span>
+            <h6>3899 ₽</h6>
+            <h4><a href="#">Star Wars Jedi: Survivor</a></h4>
             <ul>
               <li>Bedrooms: <span>12</span></li>
               <li>Bathrooms: <span>15</span></li>
@@ -267,10 +267,10 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
           <div class="item">
-            <a href="#"><img src="static/main/img/property-01.jpg" alt=""></a>
-            <span class="category">Luxury Villa</span>
-            <h6>$3.145.000</h6>
-            <h4><a href="#">34 New Street Miami, OR 24650</a></h4>
+            <a href="#"><img src="static/main/img/ac_valhalla.jpg" alt="Assassin's Creed: Valhalla"></a>
+            <span class="category">Action/RPG</span>
+            <h6>699 ₽</h6>
+            <h4><a href="#">Assassin's Creed: Valhalla</a></h4>
             <ul>
               <li>Bedrooms: <span>10</span></li>
               <li>Bathrooms: <span>12</span></li>

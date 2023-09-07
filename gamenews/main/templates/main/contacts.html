@@ -48,8 +48,8 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-8 col-md-8">
           <ul class="info">
-            <li><i class="fa fa-envelope"></i> support@gn.com</li>
-            <li><i class="fa fa-map"></i> Kazan, October 25, 10a, 420032</li>
+            <li><i class="fa fa-envelope"></i> <a href="mailto:support@gn.com" style="color: #7A7A7A">support@gn.com</a></li>
+            <li><i class="fa fa-map"></i> <a href="https://goo.gl/maps/U7T7nyPiWqkiEFEN6" target="_blank" style="color: #7A7A7A">Kazan, October 25, 10a, 420032</a></li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-4">
@@ -77,10 +77,10 @@ https://templatemo.com/tm-591-villa-agency
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="{% url 'index' %}" class="active">Новости</a></li>
+                      <li><a href="{% url 'index' %}">Новости</a></li>
                       <li><a href="{% url 'reviews' %}">Обзоры</a></li>
                       <li><a href="{% url 'guides' %}">Гайды</a></li>
-                      <li><a href="{% url 'contacts' %}">Контакты</a></li>
+                      <li><a href="{% url 'contacts' %}" class="active">Контакты</a></li>
                       <li><a href="#"><i class="fa fa-calendar"></i>Календарь релизов</a></li>
                   </ul>   
                     <a class='menu-trigger'>
@@ -98,7 +98,7 @@ https://templatemo.com/tm-591-villa-agency
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <span class="breadcrumb"><a href="../">Новости</a>  /  Контакты</span>
+          <span class="breadcrumb"><a href="{% url 'index' %}">Новости</a>  /  Контакты</span>
           <h3>Контакты</h3>
         </div>
       </div>
